@@ -17,3 +17,13 @@
 .seta-baixo img:hover {
   transform: translateY(7px) scale(1.15);
 }
+
+@media (max-width: 700px) {
+  .seta-baixo {
+    margin-top: 2.6rem;
+  }
+  .seta-baixo img {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
