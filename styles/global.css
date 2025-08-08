@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --base-gray-300: #878EA1;
+  --red-name: #D7263D;
+  --green-icon: #82BC4F;
+  --red-border: #D7263D;
+  --font-asap: "Asap", sans-serif;
+  --font-incosolata: "Inconsolata", sans-serif;
+  --font-maven: "Maven Pro", sans-serif;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.container-bg {
+  background: url("../assets/bg-intro.png") center center/cover no-repeat;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: calc(100vh - 300px); /* 120 do topo + 180 do bottom */
+  padding: 12rem 16rem 18rem;
+}

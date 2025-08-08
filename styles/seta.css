@@ -1,0 +1,19 @@
+.seta-baixo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+  width: 100%;
+}
+
+.seta-baixo img {
+  width: 32px;
+  height: 32px;
+  opacity: 0.85;
+  filter: drop-shadow(0 2px 4px #181B23);
+  transition: transform 0.3s;
+}
+
+.seta-baixo img:hover {
+  transform: translateY(7px) scale(1.15);
+}
