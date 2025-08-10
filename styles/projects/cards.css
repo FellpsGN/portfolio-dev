@@ -30,8 +30,8 @@
 .projeto-card:hover {
   transform: scale(1.03);
   box-shadow:
-    0 1.2rem 3.2rem rgba(9, 116, 39, 0.14),
-    0 0.2rem 0.8rem rgba(0,0,0,.25);
+    0 1.2rem 3.2rem rgba(255, 29, 29, 0.35),
+    0 0.2rem 0.8rem rgba(0,0,0,.24);
 }
 
 
@@ -41,8 +41,9 @@
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(130, 188, 79, 0.10),
-    rgba(130, 188, 79, 0.03)
+    rgba(0,0,0,.24),
+    rgba(255, 29, 29, 0.35)
+    
   );
   opacity: 0;
   transition: opacity .22s;
@@ -52,8 +53,8 @@
 
 
 .projeto-card--red    { border-top-color: #E3646E; }
-.projeto-card--blue   { border-top-color: #3996DB; }
-.projeto-card--yellow { border-top-color: #EABD5F; }
+.projeto-card--blue   { border-top-color: #F5F5F5; }
+.projeto-card--yellow { border-top-color: #2E8B57; }
 
 
 .projeto-card__img {
