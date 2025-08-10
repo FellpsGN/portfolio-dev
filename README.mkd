@@ -1,0 +1,38 @@
+# 💼 Portfolio - [Felipe Nascimento]
+
+Welcome to my portfolio!  
+Here you will find a bit about me, my projects, and how to get in touch.
+
+---
+
+## 🚀 Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 📂 Project Structure
+The site is divided into 3 sections:
+1. **Introduction** – Presentation with photo, role, and skills.
+2. **My Work** – List of projects with links and descriptions.
+3. **Contact** – LinkedIn, GitHub, and E-mail.
+
+---
+
+## 📸 Preview
+![Site Preview](./.github/preview.png)  
+*The image above shows a glimpse of the layout.*
+
+---
+
+## 📌 Featured Projects
+- **Currency Converter** – Converts values between different currencies using an exchange rate API.
+- **Library Games** – Page showcasing favorite games, streamers, and social media links.
+- **BMI Calculator** – Calculates body mass index.
+
+---
+
+## 📬 Contact
+- **LinkedIn:** [https://www.linkedin.com/in/felipe-nascimento-287470212/]
+- **GitHub:** [github.com/fellpsgn]

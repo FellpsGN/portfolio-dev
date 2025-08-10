@@ -1,0 +1,38 @@
+# 💼 Portfólio - [Felipe Nascimento]
+
+Bem-vindo(a) ao meu portfólio!  
+Aqui você encontrará um pouco sobre mim, meus projetos e formas de contato.
+
+---
+
+## 🚀 Tecnologias utilizadas
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 📂 Estrutura do projeto
+O site é dividido em 3 seções:
+1. **Introdução** – Apresentação com foto, função e habilidades.
+2. **Meu trabalho** – Lista de projetos com links e descrições.
+3. **Contato** – LinkedIn, GitHub e E-mail.
+
+---
+
+## 📸 Demonstração
+![Preview do site](./.github/preview.png)  
+*A imagem acima mostra um pouco do layout.*
+
+---
+
+## 📌 Projetos em destaque
+- **Conversor de Moedas** – Converte valores entre diferentes moedas usando API de câmbio.
+- **Library Games** – Página com jogos favoritos, streamers e redes sociais.
+- **Cálculo de IMC** – Calcula índice de massa corporal.
+
+---
+
+## 📬 Contato
+- **LinkedIn:** [https://www.linkedin.com/in/felipe-nascimento-287470212/]
+- **GitHub:** [github.com/fellpsgn]
