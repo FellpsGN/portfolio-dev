@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
   <div class="container-bg">
@@ -68,46 +69,88 @@
         <!-- Card 1 -->
         <article class="projeto-card projeto-card--red">
           <div class="projeto-card__img">
-            <img src="assets/travelgram.png" alt="Travelgram screenshot">
+            <img src="assets/preview-currency-converter.png" alt="Travelgram screenshot">
           </div>
           <div class="projeto-card__conteudo">
-            <h3 class="projeto-card__titulo">Lorem Ipsum</h3>
+            <h3 class="projeto-card__titulo">Conversor de Moedas</h3>
             <p class="projeto-card__desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et expedita aliquam impedit ullam nulla libero rerum ducimus officia beatae labore consequatur, 
-              magnam recusandae dolorem quas doloremque, esse dignissimos, inventore odio.
+              Aplicação web que permite converter valores entre diversas moedas em tempo real, utilizando API de câmbio. 
+              Desenvolvida com foco em praticidade e interface intuitiva.
             </p>
           </div>
         </article>
         <!-- Card 2 -->
         <article class="projeto-card projeto-card--blue">
           <div class="projeto-card__img">
-            <img src="assets/technews.png" alt="Tech News screenshot">
+            <img src="assets/preview-library-games.png" alt="Tech News screenshot">
           </div>
           <div class="projeto-card__conteudo">
-            <h3 class="projeto-card__titulo">Lorem Ipsum</h3>
+            <h3 class="projeto-card__titulo">Library Games</h3>
             <p class="projeto-card__desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et expedita aliquam impedit ullam nulla libero rerum ducimus officia beatae labore consequatur, 
-              magnam recusandae dolorem quas doloremque, esse dignissimos, inventore odio.
+              Página interativa que reúne jogos favoritos e streamers que acompanhava, com integração de redes sociais. 
+              Design pensado para transmitir a nostalgia e personalidade do criador.
             </p>
           </div>
         </article>
         <!-- Card 3 -->
         <article class="projeto-card projeto-card--yellow">
           <div class="projeto-card__img">
-            <img src="assets/receitas.png" alt="Página de receita screenshot">
+            <img src="assets/preview-imc.png" alt="Página de receita screenshot">
           </div>
           <div class="projeto-card__conteudo">
-            <h3 class="projeto-card__titulo">Lorem Ipsum</h3>
+            <h3 class="projeto-card__titulo">Cálculo de IMC</h3>
             <p class="projeto-card__desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et expedita aliquam impedit ullam nulla libero rerum ducimus officia beatae labore consequatur, 
-              magnam recusandae dolorem quas doloremque, esse dignissimos, inventore odio.
+              Ferramenta simples para calcular o Índice de Massa Corporal. 
+              Desenvolvida com HTML, CSS e JavaScript.
             </p>
           </div>
         </article>
       </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="contato__container">
+      <header class="contato__header">
+        <span class="contato__subtitulo">Contato</span>
+        <h2 class="contato__titulo">Gostou do meu trabalho?</h2>
+        <p class="contato__descricao">
+          Entre em contato ou acompanhe as minhas redes sociais!
+        </p>
+      </header>
+
+      <nav aria-label="Canais de contato" class="contato__lista">
+        <!-- Linkedin -->
+        <a class="contato-item" href="https://www.linkedin.com/in/felipe-nascimento-287470212/" target="_blank" rel="noopener noreferrer">
+          <span class="contato-item__esq">
+            <img class="contato-item__icon" 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
+                alt="" aria-hidden="true">
+            <span class="contato-item__label">LinkedIn</span>
+          </span>
+          <i class="contato-item__arrow card__icon ph ph-arrow-up-right"></i>
+        </a>
+
+        <!-- GitHub -->
+        <a class="contato-item" href="https://github.com/fellpsgn" target="_blank" rel="noopener noreferrer">
+          <span class="contato-item__esq">
+            <img class="contato-item__icon" 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
+                alt="" aria-hidden="true">
+            <span class="contato-item__label">GitHub</span>
+          </span>
+          <i class="contato-item__arrow card__icon ph ph-arrow-up-right"></i>
+        </a>
+
+        <!-- E-mail -->
+        <a class="contato-item" href="mailto:rgnfelipe06@gmail.com">
+          <span class="contato-item__esq">
+            <i class="contato-item__icon card__icon ph ph-envelope-simple"></i>
+            <span class="contato-item__label">E-mail</span>
+          </span>
+          <i class="contato-item__arrow card__icon ph ph-arrow-up-right"></i>
+        </a>
+      </nav>
     </div>
   </section>
 </body>

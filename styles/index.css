@@ -4,7 +4,7 @@
 @import url('./profile/tags.css');
 @import url('./profile/seta.css');
 
-@import url('./projetos/header.css');
-@import url('./projetos/cards.css');
+@import url('./projects/header.css');
+@import url('./projects/cards.css');
 
-
+@import url('./contact/contact.css');

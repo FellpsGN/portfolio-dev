@@ -1,0 +1,117 @@
+.contato {
+  background: url("../../assets/bg-contacts.png") center center/cover no-repeat;
+  width: 100%;
+  padding: 8rem 0;
+}
+
+.contato__container {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
+.contato__header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.contato__subtitulo {
+  font-family: var(--font-inconsolata);
+  font-size: 1.6rem;
+  color: #E3646E;
+  letter-spacing: 0.06rem;
+}
+
+.contato__titulo {
+  font-family: var(--font-maven);
+  font-weight: 800;
+  font-size: 2.4rem;
+  color: #fff;
+  margin-top: 1.2rem;
+}
+
+.contato__descricao {
+  font-family: var(--font-maven);
+  font-size: 1.4rem;
+  color: var(--base-gray-300, #878EA1);
+  margin-top: 0.8rem;
+}
+
+
+.contato__lista {
+  display: grid;
+  gap: 1.6rem;
+}
+
+
+.contato-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.2rem;
+  background: #232532;
+  border: 0.1rem solid rgba(255,255,255,0.06);
+  border-radius: 0.8rem;
+  text-decoration: none;
+  box-shadow: 0 0.2rem 0.6rem rgba(0,0,0,.18);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.contato-item:hover {
+  transform: scale(1.02);
+  border-color: rgba(255, 29, 29, 0.35);
+  box-shadow: 0 1.2rem 3.2rem rgba(255, 29, 29, 0.35), 0 0.2rem 0.8rem rgba(0,0,0,.24);
+}
+
+
+.contato-item__esq {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.contato-item__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  opacity: 0.9;
+}
+
+.contato-item__label {
+  font-family: var(--font-maven);
+  font-size: 1.6rem;
+  padding-left: 2rem;
+  color: #E2E4E9;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.contato-item__arrow {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: 1.2rem;
+  flex-shrink: 0;
+  opacity: .85;
+}
+
+.card__icon {
+    font-size: 1.6rem;
+    color: rgba(255, 29, 29, 0.76);
+}
+
+
+@media (max-width: 700px) {
+  .contato { padding: 6rem 0; }
+  .contato__container { padding: 0 1rem; }
+  .contato-item { padding: 1.8rem; }
+  .contato-item__label { font-size: 1.5rem; }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .contato-item { transition: none; }
+  .contato-item:hover { transform: none; }
+}
