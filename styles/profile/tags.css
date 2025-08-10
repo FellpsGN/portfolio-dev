@@ -56,3 +56,8 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .tag { transition: none; }
+  .tag:hover { transform: none; box-shadow: 0 0.1rem 0.6rem rgba(0,0,0,0.18); }
+}
+

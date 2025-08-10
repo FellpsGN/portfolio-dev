@@ -42,3 +42,8 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .avatar-wrapper { transition: none; }
+  .avatar-wrapper:hover { transform: none; }
+}
+

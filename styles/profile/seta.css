@@ -27,3 +27,8 @@
     height: 2.2rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .seta-baixo img { transition: none; }
+  .seta-baixo img:hover { transform: none; }
+}
