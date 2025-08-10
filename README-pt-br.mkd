@@ -30,9 +30,3 @@ O site é dividido em 3 seções:
 - **Conversor de Moedas** – Converte valores entre diferentes moedas usando API de câmbio.
 - **Library Games** – Página com jogos favoritos, streamers e redes sociais.
 - **Cálculo de IMC** – Calcula índice de massa corporal.
-
----
-
-## 📬 Contato
-- **LinkedIn:** [https://www.linkedin.com/in/felipe-nascimento-287470212/]
-- **GitHub:** [github.com/fellpsgn]

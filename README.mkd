@@ -30,9 +30,3 @@ The site is divided into 3 sections:
 - **Currency Converter** – Converts values between different currencies using an exchange rate API.
 - **Library Games** – Page showcasing favorite games, streamers, and social media links.
 - **BMI Calculator** – Calculates body mass index.
-
----
-
-## 📬 Contact
-- **LinkedIn:** [https://www.linkedin.com/in/felipe-nascimento-287470212/]
-- **GitHub:** [github.com/fellpsgn]
