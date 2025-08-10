@@ -1,5 +1,10 @@
-@import url('global.css');
-@import url('avatar.css');
-@import url('conteudo-pessoal.css');
-@import url('tags.css');
-@import url('seta.css');
+@import url('./introducao/global.css');
+@import url('./introducao/avatar.css');
+@import url('./introducao/conteudo-pessoal.css');
+@import url('./introducao/tags.css');
+@import url('./introducao/seta.css');
+
+@import url('./projetos/header.css');
+@import url('./projetos/cards.css');
+
+
