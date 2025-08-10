@@ -1,8 +1,8 @@
-@import url('./introducao/global.css');
-@import url('./introducao/avatar.css');
-@import url('./introducao/conteudo-pessoal.css');
-@import url('./introducao/tags.css');
-@import url('./introducao/seta.css');
+@import url('./profile/global.css');
+@import url('./profile/avatar.css');
+@import url('./profile/conteudo-pessoal.css');
+@import url('./profile/tags.css');
+@import url('./profile/seta.css');
 
 @import url('./projetos/header.css');
 @import url('./projetos/cards.css');
